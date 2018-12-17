@@ -1,0 +1,44 @@
+/* 
+Theme name: Kéloumak
+Author: André Mamadpu N'DOUR
+Author URI: https://www.twitter.com/Ibn_Fatou8
+Description: Thème blog de l'Access Code School de Dakar Kéloumak. Il est fait à partir du framework css Bootstrap.
+Version: 1.0
+*/
+.header{
+background: #f53b45 !important;
+opacity: 0.8;
+}
+#logo
+{
+    text-decoration: none !important;
+    color: #000000 !important;
+    font-weight: bold;
+}
+#logo:hover
+{
+    text-decoration: none !important;
+    color: #000000 !important;
+    font-weight: bold;
+}
+#navigation-principale
+{
+    position: relative;
+    float: right;
+}
+#navigation-principale li {
+position: relative;
+display: inline-block;
+padding: 10px;
+font-weight: bold;
+text-decoration: none;
+}
+#navigation-principale li a {
+color: rgb(2, 2, 2);
+}
+#navigation-principale li a:hover {
+color: #ffffff;
+text-decoration: none;
+border-bottom: solid #ffffff;
+}
+

@@ -1,0 +1,53 @@
+.blog-header img
+{
+background-size: 100%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+z-index: 0;
+}
+#sidebar
+{
+    float: right;
+}
+/* Section banniere */
+.banner
+{
+    width: 100%;
+    max-width: 100%;
+}
+.ban
+{
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+}
+.ban img
+{
+    width: 100%;
+    max-width: 100%;
+}
+.inner-banner
+{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    background-color: #dddcdc;
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 600px) {
+    .inner-banner {
+        top: 150px;
+    }
+    .inner-banner h1 {
+        font-size: 20px;
+    }
+}
+
+.inner-banner h1 a
+{
+    font-family: 'Century Schoolb...','sans-serif';
+    color: #d73351;
+    text-decoration: none;
+}
